@@ -79,4 +79,85 @@ body{
     width: 50%;
     background-color: gray;
     color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.information-section h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2937;
+    margin:3rem 0 ;
+}
+
+.card-container { 
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:5rem ;
+}
+
+.card-box{
+    text-align: center;
+}
+
+.card-box img{
+    border: 2px solid #3882f6;
+    width: 175px;
+    height: 175px;
+    border-radius: 1rem;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 5rem 0;
+}
+
+.quote{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.quote p i{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote .name {
+    text-align: end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+.action {
+    background-color: #3882f6;
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0;
+    border-radius: 10px;
+}
+
+.action h3{
+   color: #f9faf8;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.action p{
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.action button {
+    border:2px solid #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
 }
